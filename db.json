@@ -1,0 +1,50 @@
+{
+    "mezcalerias": [
+        {
+            "id": 0,
+            "mezcaleria": "La Clandestina",
+            "web": "www.milagrito.com",
+            "description": "Crack in the wall pub, bringing unique strains 
+            of artisan mezcal to the hipster neighborhood of Condesa. If it's
+            packed to the brim, consider visiting its sister location, 'El Palenquito',
+            located on the west end of Álvaro Obregón.",
+            "addresses": [
+                {
+                    "addressid": "0",
+                    "street": "Av. Álvaro Obregón",
+                    "number": "298",
+                    "colonia": "Condesa",
+                    "state": "CDMX",
+                    "postcode": "06140",
+                    "country": "México"
+                }
+            ]
+        },
+
+        {
+            "id": 0,
+            "mezcaleria": "El Palenquito",
+            "web": "www.milagrito.com",
+            "description": "If you enjoyed La Clandestina, you won't be disappointed, 
+            because this pub, brought to you by the same owners, shares the same menu. 
+            This location is more spacious and is also right on the bustling avenue of 
+            Álvaro Obregón.",
+            "addresses": [
+                {
+                    // does the addressid change back to 0 since it's in an independent address object or would we change it to 1, 2, etc.?
+                    "addressid": "0",
+                    "street": "Av. Álvaro Obregón",
+                    "number": "39",
+                    "colonia": "Roma Norte",
+                    "state": "CDMX",
+                    "postcode": "06700",
+                    "country": "México"
+                }
+            ]
+        },
+
+// add more mezcalerías here.
+
+
+    ]
+}
