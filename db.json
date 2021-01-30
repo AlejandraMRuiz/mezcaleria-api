@@ -4,6 +4,7 @@
             "id": 0,
             "mezcaleria": "La Clandestina",
             "web": "www.milagrito.com",
+            "phone": "+52 55 5212 1871",
             "description": "Crack in the wall pub, bringing unique strains 
             of artisan mezcal to the hipster neighborhood of Condesa. If it's
             packed to the brim, consider visiting its sister location, 'El Palenquito',
@@ -13,7 +14,7 @@
                     "addressid": "0",
                     "street": "Av. Álvaro Obregón",
                     "number": "298",
-                    "colonia": "Condesa",
+                    "district": "Condesa",
                     "state": "CDMX",
                     "postcode": "06140",
                     "country": "México"
@@ -25,6 +26,7 @@
             "id": 0,
             "mezcaleria": "El Palenquito",
             "web": "www.milagrito.com",
+            "phone": "+52 55 5207 8617",
             "description": "If you enjoyed La Clandestina, you won't be disappointed, 
             because this pub, brought to you by the same owners, shares the same menu. 
             This location is more spacious and is also right on the bustling avenue of 
@@ -35,7 +37,29 @@
                     "addressid": "0",
                     "street": "Av. Álvaro Obregón",
                     "number": "39",
-                    "colonia": "Roma Norte",
+                    "district": "Roma Norte",
+                    "state": "CDMX",
+                    "postcode": "06700",
+                    "country": "México"
+                }
+            ]
+        },
+
+        {
+            "id": 0,
+            "mezcaleria": "Mano Santa Mezcal",
+            "web": "unk",
+            "phone": "+52 55 3662 6088",
+            "description": "Located on Av. Insurgentes Sur, Mano Santa makes for a good place 
+            to start your mezcalería pub crawl from. Find it sandwiched between Colima and
+            Durango and just a block away from the iconic Fuente de Cibeles.",
+            "addresses": [
+                {
+                    // does the addressid change back to 0 since it's in an independent address object or would we change it to 1, 2, etc.?
+                    "addressid": "0",
+                    "street": "Av. Insurgentes Sur",
+                    "number": "219",
+                    "district": "Roma Norte",
                     "state": "CDMX",
                     "postcode": "06700",
                     "country": "México"
