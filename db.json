@@ -67,13 +67,14 @@
             ]
         },
 
-// add more mezcalerías here.
+
 
         {
             "id": 0,
             "mezcaleria": "Pulquería Insurgentes",
             "web": "unk",
             "phone": "+52 55 5207 0917",
+            // should I be using backslashes after each of these lines?
             "description": "Two story labyrinth, straight across the street from Mano Santa on  
             Insurgentes. Just get off the overground at Durango, and you're there! It's primarily
             a pulquería, but they've also got tequila, vodka and, most importantly, mezcal.",
@@ -90,6 +91,33 @@
                 }
             ]
         },  
+
+// add more mezcalerías here.
+
+        {
+            "id": 0,
+            "mezcaleria": "La Coyoacana",
+            "web": "unk",
+            "phone": "+52 55 5658 5337",
+            // should I be using backslashes after each of these lines?
+            "description": "Probably the most popular pub in Coyoacán, this one is located right in
+            'el centro' or the town square. Fun, lively and packed to the brim! Try their molcajete with
+            a side of chicharones and fresh, hot tortillas!",
+            "addresses": [
+                {
+                    // does the addressid change back to 0 since it's in an independent address object or would we change it to 1, 2, etc.?
+                    "addressid": "0",
+                    "street": "Higuera",
+                    "number": "14",
+                    "district": "Coyoacán",
+                    "state": "CDMX",
+                    "postcode": "04000",
+                    "country": "México"
+                }
+            ]
+        },  
+
+
 
     ]
 }
